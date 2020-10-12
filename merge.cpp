@@ -32,6 +32,7 @@ void traverse(node* head){
 		ptr = ptr->next;
 	}
 	cout<<ptr->data<<"\n";
+	
 }
 
 node* merge(node* head1,node* head2){
