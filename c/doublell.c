@@ -80,6 +80,6 @@ int item;
 createnode();
 printf("enter the data item in which new node is to be inserted after the data item");
 scanf("%d",&item);
-insertmid(item);
+insertmid(item);//insertion
 deletenode();
 }
